@@ -1,0 +1,19 @@
+img {
+  width: 150px;
+  height: auto; 
+  margin: 10px 0;
+}
+    button {
+  background: linear-gradient(45deg, #ee2d3a, #f7ff0f, pink);
+  color: color-mix(in srgb, color percentage, color percentage)
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+button:hover {
+  background: linear-gradient(45deg, #133aff, #10efe4f0, #c017de);
+  transform: scale(1.1);
+}

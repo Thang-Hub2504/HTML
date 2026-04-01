@@ -1,0 +1,83 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background*/
+.background{
+
+    background: linear-gradient(180deg, #74ebd5, #9face6);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Khung chứa */
+.container {
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+/* TVU logo */
+.container-logo{
+    width: 80px;
+    height: 80px;
+    margin-bottom:10px
+}
+/* Tiêu đề */
+.container h1 {
+    /* margin-bottom: 20px; */
+    color: #333;
+}
+
+/* THông tin cá nhân */
+.profile {
+    list-style: none;
+    text-align: left;
+}
+
+.profile li {
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 8px;
+    background: #f1f3f6;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+/* Ảnh */
+.img {
+    width: 150px;
+    height: 200px;
+    border-radius: 10%;
+    margin: 0px 0 12px 0;
+    border: 1px solid #74ebd5;
+}
+
+/* Nút */
+.btn {
+    border: none;
+    background: #4facfe;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Link trong button */
+.btn-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Hover */
+.btn:hover {
+    background: #00c6ff;
+    transform: scale(1.05);
+}

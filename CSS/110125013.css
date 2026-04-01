@@ -1,0 +1,12 @@
+﻿img {
+  width: 200px;
+  height: auto;
+  bordor-radius: 10px;
+}
+button{
+  padding: 8px 15px;
+  background: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
